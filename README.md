@@ -1,5 +1,3 @@
-Teck Stack:
-
 Frontend:
 - HTML, CSS, JS
 - React.js, Bootstrap
