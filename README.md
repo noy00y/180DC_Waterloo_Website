@@ -3,4 +3,7 @@ Frontend:
 - React.js, Bootstrap
 
 Backend:
-- Node.js, MongoDB
+- Node.js
+- MongoDB
+- Express
+- Mongoose
