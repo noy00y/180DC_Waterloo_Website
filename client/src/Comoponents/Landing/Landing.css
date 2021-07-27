@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  width: 100%;
+  height: 700px;
+}
+
+.slide .image {
+  
+  filter: brightness(70%);
+}
+
+.slide_text {
+  font-weight: bold;
+  padding-bottom: 18%;
+}
+
+.slide_text .hero_top_txt  {
+  color: #55B441;
+}
+
+.slide_text h1 {
+  color: white;
+}
+
+.slide_text .button {
+  cursor: pointer;
+  padding: 3px 12px;
+  background: #fff;
+  border: solid white;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+.slide_text .button h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  color: black;
+  padding-top: 5px;
+}
+
+.slide_text .button:hover {
+  background: none;
+  border: solid white;
+  transition: all 0.2s;
+  color: white;
+}
+
+.slide_text .button:hover  h4{
+  color: white;
+  transition: all 0.2s;
+}
+

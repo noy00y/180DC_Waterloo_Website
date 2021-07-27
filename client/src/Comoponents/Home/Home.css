@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    -webkit-user-drag: none;
+}
+
+/* Welcome Section */
+.welcome_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.description_container {
+    padding: 48px;
+    /* font-family: Montserrat, Arial, sans-serif; */
+}
+
+.icon_container {
+    background-color: #55B441;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+} 
+
+.icon {
+    height: 40px;
+    width: 72px;
+    margin-top: 15px;
+    filter: invert(100%);
+}
+
+.description_container h3 {
+    color: #55B441;
+    font-weight: 400;
+    padding-left: 24px;
+    transform: scale(1, .9);
+    -webkit-transform: scale(1, .9);
+}
+
+.description_container h1{
+    margin-right: 10%;
+    padding-left: 24px;
+    transform: scale(1, .95);
+    -webkit-transform: scale(1, .95);
+}
+
+.descriptions h2 {
+    font-size: 1.3rem;
+    line-height: 2;
+    transform: scale(1, .95);
+    -webkit-transform: scale(1, .95);
+    font-weight: 700;
+}
+
+.descriptions p {
+    color: grey;
+    font-size: 1.05rem;
+    /* line-height: 1.8; */
+    transform: scale(1, .95);
+    -webkit-transform: scale(1, .95);
+    font-weight: 400;
+}
+
+.market_analysis {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.accounting_analysis {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.consultancy {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.assesments {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* Services Section */
+.services{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 7vh;
+    z-index: 100;
+}
+
+.services_container {
+    display: flex;
+
+}
+
+.services_container h2 {
+    transform: scale(1, .89);
+    -webkit-transform: scale(1, .92);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.services_container p {
+    padding-top: .5vh;
+    color: grey;
+}
+
+.accounting {
+    margin-right: 1.5vw;
+}
+
+.compliance {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.financial {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.funding {
+    margin-left: 1.5vw;
+}
+
+
+.calculator_icon {
+    height: 104px;
+    width: 80px;
+    z-index: -1;
+    filter: invert(85%);
+    position: relative;
+    margin-top: -300px;
+
+    margin-left: -1.5vw;
+}
+.tax_icon {
+    height: 104px;
+    width: 80px;
+    z-index: -1;
+    filter: invert(85%);
+    position: relative;
+    margin-top: -300px;
+
+    margin-left: 13vw;
+}
+.loan_icon {
+    height: 104px;
+    width: 80px;
+    z-index: -1;
+    filter: invert(85%);
+    position: relative;
+    margin-top: -300px;
+
+    margin-left: 13vw;
+}
+.budget_icon {
+    height: 104px;
+    width: 80px;
+    z-index: -1;
+    filter: invert(85%);
+    position: relative;
+    margin-top: -300px;
+
+    margin-left: 14vw;
+}
+
+/* Statistics */
+.statistics_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 4vh;
+}
+
+/* Stats Number */
+
+.statistics_container h2{
+    font-size: 50px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+    color: #55B441;
+
+    /* Animation */
+}
+
+.statistics_container p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+/* Message From 180 */
+.message_container {
+    width: 100%;
+}
+
+.message_banner {
+    height: 46vh;
+    background-color: #8fd0d2;
+    display: flex;
+    justify-content: center;
+}
+
+.message_banner h2 {
+    padding-top: 10vh;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+}

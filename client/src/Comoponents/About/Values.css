@@ -1,0 +1,40 @@
+.values {
+    display: flex;
+    margin: 9vh;
+    gap: 10vw;
+    padding-bottom: 15rem;
+}
+
+.values_title {
+    display: flex;
+    gap: 4vw;
+}
+
+.values_icon {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    filter: inverse(100%);
+    background-color: #55B441;
+    border-radius: 50%;
+}
+
+.values_title h1 {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+}
+
+.values_description {
+    font-size: 1rem;
+    color: rgb(80, 80, 80);
+    font-weight: 450;
+
+    /* Positioning */
+    position: absolute;
+    right: 17.5vw;
+    width: 500px;
+}
+
+.values_description p{
+    line-height: 1.6;
+}

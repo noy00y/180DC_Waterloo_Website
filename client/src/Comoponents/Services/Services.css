@@ -1,0 +1,13 @@
+.services {
+  box-sizing: border-box;
+}
+
+.services_header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 10vw;
+}
+
+

@@ -1,0 +1,95 @@
+html { 
+    background:  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    all: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.carousel_container {
+    display: flex;
+    justify-content: center;
+    margin-top: -17vh;
+    -webkit-user-drag: none;
+}
+
+.slide_container {
+    display: grid;
+    gap: 7vw;
+    grid-auto-flow: column;
+    display: none; /* setting display intitally to nothing */
+}
+
+.card_container {
+    background-color: white;
+    border-radius: 3%;
+    background-color: #f8f9fd;
+    box-shadow: red;
+}
+
+.message_icon_background {
+    height: 40px;
+    width: 40px;
+    background-color: #55B441;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.message_icon {
+    height: 14px;
+    width: 14px;
+    margin: 30%;
+    filter: invert(100%);
+}
+
+.card {
+    border: none;
+    padding: 10px 20px 20px;
+    color: grey;
+    background-color: #f8f9fd;
+}
+
+.card_text{ 
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.card_info {
+    display: flex;
+    gap: 20px;
+}
+
+.card_photo {
+    width: 80px;
+    height: 80px;
+}
+
+.navigation_dots {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.dots {
+    height: 15px;
+    width: 15px;
+    background-color: #55B441;
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+    margin-bottom: 50px;
+}
+
+.active, .dots:hover {
+    background-color: darkgreen;
+}
