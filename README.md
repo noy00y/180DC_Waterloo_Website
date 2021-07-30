@@ -1,3 +1,5 @@
+Teck Stack: MERN
+
 Frontend:
 - HTML, CSS, JS
 - React.js, Bootstrap
